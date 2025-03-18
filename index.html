@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .container {
+      padding: 20px;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#" id="nav-file">File</a>
+    <a href="#" id="nav-edit">Edit</a>
+    <a href="#" id="nav-run">Run</a>
+    <a href="#" id="nav-about">About Us</a>
+  </div>
+
+  <div class="container">
+    <div id="page-file" class="page">
+      <h2>File</h2>
+      <p>Fitur File belum diimplementasikan.</p>
+    </div>
+    
+    <div id="page-edit" class="page">
+      <h2>Edit</h2>
+      <p>Fitur Edit belum diimplementasikan.</p>
+    </div>
+    
+    <div id="page-run" class="page">
+      <h2>Run</h2>
+      <p>Fitur Run belum diimplementasikan.</p>
+    </div>
+    
+    <div id="page-about" class="page">
+      <h2>About Us</h2>
+      <p>Website ini dikembangkan oleh:</p>
+      <ul>
+        <li>Sepri T
